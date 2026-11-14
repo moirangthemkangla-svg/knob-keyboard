@@ -607,6 +607,7 @@ footer a {
   border-radius: 50px;
   position: relative;
   top: 20px;
+  color: white;
   left: 50%;
   transform: translateX(-50%);
   transition: 0.3s ease;
@@ -711,6 +712,7 @@ footer a {
   background-color: rgba(0, 0, 0, 0.519);
   top: 600px;
   z-index: 200;
+  color: white;
   position: relative;
   left: 30px;
   border-radius: 50px;
@@ -719,6 +721,7 @@ footer a {
 .arrow.right {
   height: 70px;
   width: 70px;
+  color: white;
   top: 600px;
   z-index: 200;
   background-color: rgba(0, 0, 0, 0.519);
