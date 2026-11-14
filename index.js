@@ -11,3 +11,20 @@ function closemenu() {
   menupanel.classList.remove("active");
   overlay.classList.remove("active");
 }
+const container = document.querySelector(".container");
+const leftbtn = document.querySelector(".arrow.left");
+const rightbtn = document.querySelector(".arrow.right");
+
+leftbtn.addEventListener("click", function () {
+  container.scrollBy({
+    left: -400,
+    behavior: "smooth",
+  });
+});
+
+rightbtn.addEventListener("click", function () {
+  container.scrollBy({
+    left: 400,
+    behavior: "smooth",
+  });
+});
